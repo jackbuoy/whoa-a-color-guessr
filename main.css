@@ -11,10 +11,13 @@ h1 {
     padding-bottom: 30%;
     margin: 1.66%;
     float: left;
-    background-color: greenyellow;
 }
 
 #container {
     max-width: 600px;
     margin: 0 auto;
+}
+
+#messageContainer {
+    background-color: darkslategray;
 }

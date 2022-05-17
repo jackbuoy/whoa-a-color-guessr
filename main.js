@@ -11,6 +11,7 @@ const colors = [
 //Select elements
 const squares = document.querySelectorAll(".square");
 const colorDisplay = document.getElementById("colorDisplay");
+const message = document.getElementById("message");
 //Choose winning color
 let pickedColor = colors[0];
 
@@ -26,9 +27,10 @@ for(let i = 0; i < squares.length; i++) {
         const clickedColor = this.style.backgroundColor;
         //Compare that color to pickedColor
         if(clickedColor === pickedColor) {
-            alert("You win!");
+            message.textContent = "Correct :)";
         } else {
-            alert("You lose!");
+            this.style.backgroundColor = "darkslategray";
+            message.textContent = "Try again :O"
         }
     })
 }
