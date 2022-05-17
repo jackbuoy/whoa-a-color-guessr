@@ -1,0 +1,20 @@
+body {
+    background-color: darkslategray;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    background-color: greenyellow;
+}
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+}
