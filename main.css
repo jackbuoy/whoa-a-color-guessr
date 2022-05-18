@@ -6,6 +6,10 @@ h1 {
     color: aliceblue;
 }
 
+.selected {
+    background-color: blue;
+}
+
 .square {
     width: 30%;
     padding-bottom: 30%;
